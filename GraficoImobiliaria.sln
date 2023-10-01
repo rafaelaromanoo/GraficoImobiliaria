@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{42962975-D5EF-498E-B8D6-B878FE3BF21A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{7DD00EE3-8DDD-407B-B946-0A238F1FFCA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E56780D2-4BD4-40EE-9EB2-514D1250DCE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraficoImobiliaria.Application", "GraficoImobiliaria.Application\GraficoImobiliaria.Application.csproj", "{4671B8C8-5F21-4EDF-8EBE-2DBC5B05F268}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraficoImobiliaria.Domain", "GraficoImobiliaria.Domain\GraficoImobiliaria.Domain.csproj", "{7471B27F-AC32-4A51-BA1A-C108C3E49E6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraficoImobiliaria.Persistence", "GraficoImobiliaria.Persistence\GraficoImobiliaria.Persistence.csproj", "{A37E4B5C-2ECB-45FB-998F-BE16D8DE6825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraficoImobiliaria.WebAPI", "GraficoImobiliaria.WebAPI\GraficoImobiliaria.WebAPI.csproj", "{1F952044-68BF-424F-9816-4FFA92DBECF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4671B8C8-5F21-4EDF-8EBE-2DBC5B05F268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4671B8C8-5F21-4EDF-8EBE-2DBC5B05F268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4671B8C8-5F21-4EDF-8EBE-2DBC5B05F268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4671B8C8-5F21-4EDF-8EBE-2DBC5B05F268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7471B27F-AC32-4A51-BA1A-C108C3E49E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7471B27F-AC32-4A51-BA1A-C108C3E49E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7471B27F-AC32-4A51-BA1A-C108C3E49E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7471B27F-AC32-4A51-BA1A-C108C3E49E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37E4B5C-2ECB-45FB-998F-BE16D8DE6825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37E4B5C-2ECB-45FB-998F-BE16D8DE6825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37E4B5C-2ECB-45FB-998F-BE16D8DE6825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37E4B5C-2ECB-45FB-998F-BE16D8DE6825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F952044-68BF-424F-9816-4FFA92DBECF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F952044-68BF-424F-9816-4FFA92DBECF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F952044-68BF-424F-9816-4FFA92DBECF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F952044-68BF-424F-9816-4FFA92DBECF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4671B8C8-5F21-4EDF-8EBE-2DBC5B05F268} = {42962975-D5EF-498E-B8D6-B878FE3BF21A}
+		{7471B27F-AC32-4A51-BA1A-C108C3E49E6C} = {42962975-D5EF-498E-B8D6-B878FE3BF21A}
+		{A37E4B5C-2ECB-45FB-998F-BE16D8DE6825} = {7DD00EE3-8DDD-407B-B946-0A238F1FFCA9}
+		{1F952044-68BF-424F-9816-4FFA92DBECF8} = {E56780D2-4BD4-40EE-9EB2-514D1250DCE0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D38A687-5C54-490C-BB74-ECBA902C19FD}
+	EndGlobalSection
+EndGlobal
